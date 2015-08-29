@@ -1,0 +1,16 @@
+@media(min-width: 992px){
+	.s-form { position: relative; }
+	.s-form:before { content: "or"; position: absolute; right: -28px; top: 0; bottom: 0; margin: auto; line-height: 15em; }
+}
+.s-form .input-group { border: 1px solid #ddd; border-radius: 2px; }
+.s-form .input-group .form-control,
+.s-form .input-group .input-group-addon { border: 0 none; box-shadow: none; background-color: transparent; }
+.s-form .input-group .input-group-addon { color: #aaa; }
+.s-form .btn-forgot { padding: 6px 0 6px 12px; text-align: right; }
+
+.s-api .input-group { border-radius: 2px; }
+.s-api .input-group .input-group-addon,
+.s-api .input-group .form-control { border: 0 none; background-color: transparent; color: #fff; box-shadow: none; }
+.s-api .input-group.btn-primary .input-group-addon { background-color: #286090; padding: 6px 14px; }
+.s-api .input-group.btn-info .input-group-addon { background-color: #269abc; }
+.s-api .input-group.btn-danger .input-group-addon { background-color: #ac2925; }
